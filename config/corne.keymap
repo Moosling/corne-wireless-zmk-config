@@ -27,22 +27,6 @@
             >;
         };
 
-        number {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            display-name = "Lower";
-            bindings = <
-&kp TAB    &kp F1  &kp F2  &kp F3    &kp F4  &kp F5       &kp F6   &kp F7  &kp F8    &kp F9  &kp F10  &kp BSPC
-&kp LCTRL  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6   &kp N7  &kp N8    &kp N9  &kp N0   &kp F11
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans   &trans  &trans    &trans  &trans   &kp F12
-                           &kp LGUI  &trans  &kp SPACE    &kp RET  &trans  &kp RALT
-            >;
-        };
-
         symbol {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
@@ -56,6 +40,22 @@
 &kp LCTRL  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &trans       &kp SINGLE_QUOTE  &kp MINUS  &kp LBKT              &kp RBKT               &kp SEMICOLON  &kp GRAVE
 &kp LSHFT  &trans          &trans     &trans        &trans        &trans       &trans            &trans     &trans                &trans                 &kp PIPE       &kp TILDE
                                       &kp LGUI      &trans        &kp SPACE    &kp RET           &trans     &kp RALT
+            >;
+        };
+
+        number {
+            // -----------------------------------------------------------------------------------------
+            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+            //                    | GUI |     | SPC |   | ENT |     | ALT |
+
+            display-name = "Lower";
+            bindings = <
+&kp TAB    &kp F1  &kp F2  &kp F3    &kp F4  &kp F5       &kp F6   &kp F7  &kp F8    &kp F9  &kp F10  &kp BSPC
+&kp LCTRL  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6   &kp N7  &kp N8    &kp N9  &kp N0   &kp F11
+&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans   &trans  &trans    &trans  &trans   &kp F12
+                           &kp LGUI  &trans  &kp SPACE    &kp RET  &trans  &kp RALT
             >;
         };
 
