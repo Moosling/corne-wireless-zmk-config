@@ -23,7 +23,7 @@
 &kp TAB    &kp Q  &kp W  &kp F        &kp P      &kp B        &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
 &kp LCTRL  &kp A  &kp R  &kp S        &kp T      &kp G        &kp M    &kp N  &kp E      &kp I    &kp O          &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C        &kp D      &kp V        &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                         &lt 4 COMMA  &lt 1 ESC  &kp SPACE    &kp RET  &mo 2  &kp RALT
+                         &lt 4 COLON  &lt 1 ESC  &kp SPACE    &kp RET  &mo 2  &kp RALT
             >;
         };
 
@@ -52,10 +52,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp EXCL        &kp AT     &kp HASH      &kp DLLR      &kp PRCNT    &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &trans       &kp MINUS  &kp MINUS  &kp LBKT              &kp RBKT               &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans          &trans     &trans        &trans        &trans       &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE  &kp TILDE
-                                      &kp LGUI      &trans        &kp SPACE    &kp RET    &trans     &kp RALT
+&kp TAB    &trans          &trans     &trans        &trans        &trans       &kp CARET         &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK   &kp BSPC
+&kp LCTRL  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &trans       &kp SINGLE_QUOTE  &kp MINUS  &kp LBKT              &kp RBKT               &kp SEMICOLON  &kp GRAVE
+&kp LSHFT  &trans          &trans     &trans        &trans        &trans       &trans            &trans     &trans                &trans                 &kp PIPE       &kp TILDE
+                                      &kp LGUI      &trans        &kp SPACE    &kp RET           &trans     &kp RALT
             >;
         };
 
@@ -70,7 +70,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans        &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans        &trans           &trans
                         &trans  &trans  &trans    &trans  &trans          &trans
