@@ -58,7 +58,7 @@
 &kp TAB    &kp Q               &kp W               &kp F            &kp P                 &kp B          &kp J         &kp L                 &kp U            &kp Y               &kp SEMICOLON       &kp BSPC
 &kp LCTRL  &lh_pht LEFT_GUI A  &lh_pht LEFT_ALT R  &lh_pht LCTRL S  &lh_pht LEFT_SHIFT T  &kp G          &kp M         &rh_pht LEFT_SHIFT N  &rh_pht LCTRL E  &rh_pht LEFT_ALT I  &rh_pht LEFT_GUI O  &kp SQT
 &kp LSHFT  &kp Z               &kp X               &kp C            &kp D                 &kp V          &kp K         &kp H                 &kp COMMA        &kp DOT             &kp FSLH            &kp ESC
-                                                   &lt 1 COLON      &lt 2 ESC             &lt 3 SPACE    &lt 4 RETURN  &lt 5 BACKSPACE       &lt 6 I
+                                                   &lt 1 COLON      &lt 2 ESC             &lt 3 SPACE    &lt 4 RETURN  &lt 5 BACKSPACE       &lt 6 DEL
             >;
         };
 
@@ -96,23 +96,23 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB    &kp F1  &kp F2  &kp F3    &kp F4  &kp F5       &kp F6   &kp F7  &kp F8    &kp F9  &kp F10  &kp BSPC
-&kp LCTRL  &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6   &kp N7  &kp N8    &kp N9  &kp N0   &kp F11
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans   &trans  &trans    &trans  &trans   &kp F12
-                           &kp LGUI  &trans  &kp SPACE    &kp RET  &trans  &kp RALT
+&kp TAB    &kp LBKT   &kp N7  &kp N8    &kp N9  &kp RBKT     &kp F6   &kp F7     &kp F8     &kp F9    &kp F10   &kp BSPC
+&kp LCTRL  &kp SEMI   &kp N4  &kp N5    &kp N6  &kp EQUAL    &kp N6   &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp F11
+&kp LSHFT  &kp GRAVE  &kp N1  &kp N2    &kp N3  &kp FSLH     &trans   &trans     &trans     &trans    &trans    &kp BSPC
+                              &kp LGUI  &trans  &kp SPACE    &kp RET  &trans     &kp RALT
             >;
         };
 
-        both {
+        media {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans        &trans        &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_PREVIOUS    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans        &trans        &trans      &trans
+                        &trans  &trans  &trans    &trans  &kp C_PLAY_PAUSE  &kp C_MUTE
             >;
         };
 
-        layer_5 {
+        mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
