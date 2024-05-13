@@ -97,7 +97,7 @@
 &trans  &trans    &trans    &trans     &trans     &trans    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp BACKSLASH  &kp MINUS      &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp APOS
 &trans  &trans    &trans    &trans     &trans     &trans    &kp POUND      &kp AT         &kp COMMA     &kp DOT               &kp FSLH               &kp GRAVE
-                            &trans     &trans     &trans    &kp EXCL       &kp SEMI       &kp RALT
+                            &trans     &trans     &trans    &kp EXCL       &kp SEMI       &kp TILDE
             >;
         };
 
