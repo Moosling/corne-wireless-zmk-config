@@ -59,7 +59,7 @@
 &none  &kp Q               &kp W               &kp F            &kp P                 &kp B          &kp J         &kp L                 &kp U            &kp Y               &kp SEMICOLON       &none
 &none  &lh_pht LEFT_GUI A  &lh_pht LEFT_ALT R  &lh_pht LCTRL S  &lh_pht LEFT_SHIFT T  &kp G          &kp M         &rh_pht LEFT_SHIFT N  &rh_pht LCTRL E  &rh_pht LEFT_ALT I  &rh_pht LEFT_GUI O  &kp SQT
 &none  &kp Z               &kp X               &kp C            &kp D                 &kp V          &kp K         &kp H                 &kp COMMA        &kp DOT             &kp FSLH            &kp RIGHT_ALT
-                                               &lt 1 TAB        &lt 3 ESC             &lt 4 SPACE    &lt 2 RETURN  &lt 6 BACKSPACE       &lt 5 DEL
+                                               &lt 1 TAB        &lt 2 ESC             &lt 3 SPACE    &lt 4 RETURN  &lt 5 BACKSPACE       &lt 6 DEL
             >;
         };
 
